@@ -9,6 +9,7 @@ import { Destinations } from "@/components/Destinations";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
+import { BackToTop } from "@/components/BackToTop";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       </main>
       <Footer />
       <FloatingWhatsApp />
+      <BackToTop />
       <Toaster position="top-center" richColors />
     </div>
   );
