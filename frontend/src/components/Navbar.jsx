@@ -29,11 +29,14 @@ export const Navbar = () => {
       }`}
     >
       <nav className={`max-w-[1400px] mx-auto flex items-center justify-between px-6 lg:px-12 py-5 ${textColor}`}>
-        <a href="#top" data-testid="nav-logo" className="flex items-baseline gap-2 group">
-          <span className="font-display text-2xl lg:text-[1.75rem] leading-none tracking-tight italic-display">
-            Tropical<span className="not-italic">ê</span>
-          </span>
-          <span className="hidden md:inline overline opacity-70">Viagens &amp; Turismo</span>
+        <a href="#top" data-testid="nav-logo" className="flex items-center gap-3 group">
+          <img
+            src={`${process.env.PUBLIC_URL || ""}/logo-tropicale.jpg`}
+            alt="Tropicalê Viagens e Turismo"
+            className="h-14 lg:h-20 w-auto object-contain select-none"
+            draggable="false"
+          />
+          <span className="sr-only">Tropicalê Viagens e Turismo</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-10">
