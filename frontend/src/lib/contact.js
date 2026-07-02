@@ -21,5 +21,5 @@ export const buildWhatsAppLink = (message) => {
 
 export const buildDestinationWhatsapp = (dest) =>
   buildWhatsAppLink(
-    `Olá, Tropicalê! Tenho interesse no roteiro *${dest.title}, ${dest.country}* (a partir de R$ ${dest.price_from.toLocaleString("pt-BR")}). Podem me passar mais informações?`
+    `Olá, Tropicalê! Tenho interesse no roteiro *${dest.title}, ${dest.country}*. Podem me passar mais informações?`
   );
