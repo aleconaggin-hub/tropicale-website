@@ -28,12 +28,12 @@ export const Navbar = () => {
         scrolled ? "nav-scrolled" : "nav-transparent"
       }`}
     >
-      <nav className={`max-w-[1400px] mx-auto flex items-center justify-between px-6 lg:px-12 py-3 ${textColor}`}>
+      <nav className={`max-w-[1400px] mx-auto flex items-center justify-between px-6 lg:px-12 py-4 ${textColor}`}>
         <a href="#top" data-testid="nav-logo" className="flex items-center gap-3 group">
           <img
             src={`${process.env.PUBLIC_URL || ""}/logo-tropicale.jpg`}
             alt="Tropicalê Viagens e Turismo"
-            className="h-20 lg:h-28 w-auto object-contain select-none"
+            className="h-10 lg:h-12 w-auto object-contain select-none"
             draggable="false"
           />
           <span className="sr-only">Tropicalê Viagens e Turismo</span>

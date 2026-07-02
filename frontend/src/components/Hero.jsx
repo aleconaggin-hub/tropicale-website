@@ -21,8 +21,15 @@ export const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-navy/40 via-transparent to-navy/70" />
       </div>
 
-      <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12 pt-40 lg:pt-48 pb-24 lg:pb-32 min-h-screen flex flex-col justify-between">
+      <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12 pt-32 lg:pt-40 pb-24 lg:pb-32 min-h-screen flex flex-col justify-between">
         <div className="stagger max-w-4xl">
+          <img
+            src={`${process.env.PUBLIC_URL || ""}/logo-tropicale.jpg`}
+            alt="Tropicalê Viagens e Turismo"
+            className="h-32 lg:h-44 w-auto object-contain mb-8 shadow-2xl shadow-navy/40"
+            draggable="false"
+            data-testid="hero-brand-logo"
+          />
           <div className="flex items-center gap-3 mb-8">
             <span className="h-[1px] w-14 bg-cream/70" />
             <span className="overline text-cream/85">Agência boutique brasileira</span>
