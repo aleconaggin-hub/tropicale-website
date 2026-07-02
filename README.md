@@ -111,24 +111,22 @@ e highlights — basta editar/adicionar/remover à vontade.
 ## Estrutura
 
 ```
-frontend/
-├── public/
-│   ├── index.html
-│   └── _redirects              # Fallback Netlify/Cloudflare
-├── src/
-│   ├── App.js                  # Composição das seções
-│   ├── App.css / index.css     # Tema + tipografia da marca
-│   ├── components/             # Navbar, Hero, About, Destinations, Contact, Footer, FloatingWhatsApp
-│   ├── data/destinations.js    # Catálogo estático
-│   └── lib/contact.js          # Dados de contato
-└── package.json
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── _redirects              # Fallback Netlify/Cloudflare
+│   ├── src/
+│   │   ├── App.js                  # Composição das seções
+│   │   ├── App.css / index.css     # Tema + tipografia da marca
+│   │   ├── components/             # Navbar, Hero, About, Destinations, Contact, Footer, FloatingWhatsApp
+│   │   ├── data/destinations.js    # Catálogo estático
+│   │   └── lib/contact.js          # Dados de contato
+│   └── package.json
+├── memory/                          # PRD e notas internas (não vão para prod)
+└── README.md
 ```
 
-## Observação sobre a pasta `backend/`
-
-O template do ambiente Emergent inclui um FastAPI/MongoDB, mas **o site não
-depende dele** — todo o conteúdo é servido do bundle estático. Você pode
-ignorar/apagar a pasta `backend/` ao publicar.
+Não há backend, banco de dados ou API. Tudo é servido do bundle estático.
 
 ---
 
