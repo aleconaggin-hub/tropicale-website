@@ -5,8 +5,8 @@ export const CONTACT = {
   email: "contato@tropicaleviagens.com.br",
   phoneDisplay: "+55 (19) 99343-6004 ",
   whatsappNumber: "551993436004", // digits only for wa.me
-  instagramHandle: "@tropicaleviagens",
-  instagramUrl: "https://instagram.com/tropicaleviagens",
+  instagramHandle: "@tropicaleviagenseturismo",
+  instagramUrl: "https://instagram.com/tropicaleviagenseturismo",
   facebookHandle: "/tropicaleviagens",
   facebookUrl: "https://facebook.com/tropicaleviagens",
   addressCity: "São Paulo, Brasil",
