@@ -3,8 +3,8 @@ export const CONTACT = {
   brand: "Tropicalê",
   brandSuffix: "Viagens e Turismo",
   email: "contato@tropicaleviagens.com.br",
-  phoneDisplay: "+55 (11) 99999-9999",
-  whatsappNumber: "5511999999999", // digits only for wa.me
+  phoneDisplay: "+55 (19) 99343-6004 ",
+  whatsappNumber: "551993436004", // digits only for wa.me
   instagramHandle: "@tropicaleviagens",
   instagramUrl: "https://instagram.com/tropicaleviagens",
   facebookHandle: "/tropicaleviagens",
