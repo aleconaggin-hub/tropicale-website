@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tropicalê · Redirecionando…</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      // SPA fallback for GitHub Pages: redirect any deep path back to the root
+      // of the site so React can render the correct view.
+      (function () {
+        var repo = '/tropicale-website';
+        var path = window.location.pathname;
+        var base = path.indexOf(repo) === 0 ? repo + '/' : '/';
+        window.location.replace(base + window.location.search + window.location.hash);
+      })();
+    </script>
+    <meta http-equiv="refresh" content="0; url=/tropicale-website/" />
+  </head>
+  <body>
+    <p>Redirecionando para <a href="/tropicale-website/">Tropicalê</a>…</p>
+  </body>
+</html>
