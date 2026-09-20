@@ -8,7 +8,7 @@ export const CONTACT = {
   instagramHandle: "@tropicaleviagenseturismo",
   instagramUrl: "https://instagram.com/tropicaleviagenseturismo",
   facebookHandle: "/tropicaleviagens",
-  facebookUrl: "https://facebook.com/tropicaleviagens",
+  facebookUrl: "https://facebook.com/tropicaleviagenseturismo",
   addressCity: "São Paulo, Brasil",
 };
 
